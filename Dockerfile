@@ -3,7 +3,7 @@
 # Smallest base image
 FROM container4armhf/armhf-alpine:3.4
 
-MAINTAINER Kyle Manna <kyle@kylemanna.com>
+MAINTAINER Darrell Enns <darrell@darrellenns.com>
 
 RUN echo "http://dl-4.alpinelinux.org/alpine/v3.4/community/" >> /etc/apk/repositories && \
     echo "http://dl-4.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/repositories && \
